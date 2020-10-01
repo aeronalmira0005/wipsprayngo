@@ -16,7 +16,9 @@ body
 }
 
 header{
-  border: 2px solid black;
+  top: -4rem;
+  overflow-x: hidden;
+  position: relative;
 }
 
 .city-img{
@@ -29,6 +31,7 @@ header{
   width: 1000%;
   height: 100%;
   z-index: -1;
+
   background-repeat: repeat-x;
   animation: city_img 25s linear infinite;
 }
@@ -80,7 +83,6 @@ header{
   text-align: center;
   height: 100%;
   width: 100%;
-  border: 2px solid red;
 }
 .img
 {
@@ -417,7 +419,6 @@ margin-right: 50%;
   .showcase .ez
   {
   height: 40px;
-  padding-bottom: 20%;
   }
   .menu-wrap .logo
   {
@@ -603,6 +604,11 @@ height: auto;
 
 .city-img{
   top: 0;
+}
+
+.showcase .showcase-inner
+{
+  height: 95%;
 }
 
 }
