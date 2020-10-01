@@ -15,6 +15,28 @@ body
 
 }
 
+header{
+  border: 2px solid black;
+}
+
+.city-img{
+  background-image: url("../City-Scape-Panoramic.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  top: -4rem;
+  width: 1000%;
+  height: 100%;
+  z-index: -1;
+  background-repeat: repeat-x;
+  animation: city_img 25s linear infinite;
+}
+
+@keyframes city_img {
+  100% {transform: translateX(-100rem);}
+}
+
 .container
 {
   max-width: 960px;
@@ -58,6 +80,7 @@ body
   text-align: center;
   height: 100%;
   width: 100%;
+  border: 2px solid red;
 }
 .img
 {
@@ -66,10 +89,10 @@ body
   position: relative;
   bottom: 0;
   transform: scaleX(-1);
-  margin-top: -10%;
-  margin-bottom: 10%;
-  margin-left: 2rem;
+  margin-top: 5%;
+  margin-left: auto;
   margin-right: auto;
+  border: 2px solid red;
 }
 
 
@@ -87,7 +110,7 @@ body
   margin-top: 1rem;
   text-decoration: none;
   scroll-behavior: smooth;
-  margin-left: 20rem;
+  margin-left: auto;
   margin-right: auto;
 
 }
@@ -97,8 +120,9 @@ body
 }
 .menu-wrap .logo
 {
+  position: fixed;
   left: 0;
-  width: 10%;
+  width: 10rem;
   height: auto;
   float: left;
   padding-left: 1%;
@@ -107,9 +131,9 @@ body
 .showcase .ez
 {
   height: 10%;
-  margin-left: 8rem;
+  margin-left: auto;
   margin-right: auto;
-
+  border: 2px solid red;
 }
 
 h2
@@ -162,7 +186,10 @@ h3 > p
   margin-left: 10%;
   margin-right: 10%;
 
+}
 
+.text {
+  border: 2px solid red;
 }
 
 .container-product
@@ -362,7 +389,7 @@ margin-right: 50%;
       background-position: 700% 0;
   }
 }
-@media all and (max-width: 980px)
+@media (max-width: 1028px)
 {
 @keyframes animate
 {
@@ -375,17 +402,16 @@ margin-right: 50%;
 }
   .showcase
   {
-      width: 360px;
+      padding-top: 8rem;
+      display: flex;
+      width: 100%;
+      align-items: center;
   }
 
   .img
   {
   height: 170px;
   width: 380px;
-  position: relative;
-  margin-bottom: 50%;
-  margin-right: 50%;
-
 
   }
   .showcase .ez
@@ -395,11 +421,10 @@ margin-right: 50%;
   }
   .menu-wrap .logo
   {
-  top: 20px;
-  right: 40%;
-  width: 40%;
-  height: 40%;
-  padding-left: 30%;
+  top: 3rem;
+  width: 5rem;
+
+  margin-left: 40%;
   }
   .container1
   {
@@ -574,6 +599,10 @@ height: auto;
   margin-right:55%;
   padding-left:10%;
 
+}
+
+.city-img{
+  top: 0;
 }
 
 }
