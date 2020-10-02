@@ -21,7 +21,7 @@ header{
   position: relative;
 }
 
-.city-img{
+/* .city-img{
   background-image: url("../City-Scape-Panoramic.jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@ header{
 
 @keyframes city_img {
   100% {transform: translateX(-100rem);}
-}
+} */
 
 .container
 {
@@ -58,7 +58,7 @@ header{
 .showcase::before
 {
   content: '';
-  background: url(/City-Scape-Panoramic.jpg);
+  background: url("../City-Scape-Panoramic.jpg");
   background-repeat: repeat-x;
   position: absolute;
   top: 0;
@@ -70,8 +70,16 @@ header{
   background-position: 0 0;
   animation: animate 15s linear infinite;
   background-color: white;
+}
 
-
+@keyframes animate
+{
+  from{
+      background-position: 0 0;
+  }
+  to{
+      background-position: 700% 0;
+  }
 }
 .showcase .showcase-inner
 {
@@ -377,6 +385,16 @@ margin-right: 50%;
 
 @media (max-width: 1028px)
 {
+
+  @keyframes animate
+  {
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 300% 0;
+    }
+  }
 
   .showcase
   {
