@@ -31,7 +31,6 @@ header{
   width: 1000%;
   height: 100%;
   z-index: -1;
-
   background-repeat: repeat-x;
   animation: city_img 25s linear infinite;
 }
@@ -94,7 +93,6 @@ header{
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid red;
 }
 
 
@@ -135,7 +133,6 @@ header{
   height: 10%;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid red;
 }
 
 h2
@@ -188,10 +185,6 @@ h3 > p
   margin-left: 10%;
   margin-right: 10%;
 
-}
-
-.text {
-  border: 2px solid red;
 }
 
 .container-product
@@ -382,32 +375,19 @@ margin-right: 50%;
 
 }
 
-@keyframes animate
-{
-  from{
-      background-position: 0 0;
-  }
-  to{
-      background-position: 700% 0;
-  }
-}
 @media (max-width: 1028px)
 {
-@keyframes animate
-{
-  from{
-      background-position: 0 0;
-  }
-  to{
-      background-position: 300% 0;
-  }
-}
+
   .showcase
   {
       padding-top: 8rem;
       display: flex;
       width: 100%;
       align-items: center;
+  }
+
+  .text{
+    margin-top: -7rem;
   }
 
   .img
