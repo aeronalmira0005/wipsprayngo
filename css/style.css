@@ -87,12 +87,13 @@ header {
   background-color: black;
   color: #fff;
   padding: 0.75rem 1.5rem;
+  padding-bottom: 1rem;
   margin-top: 1rem;
   text-decoration: none;
   scroll-behavior: smooth;
   margin-left: auto;
   margin-right: auto;
-  font-family: sans-serif;
+  font-family: "GalanoGrotesque-Bold";
 }
 
 .btn:hover {
@@ -121,12 +122,12 @@ h2 {
   justify-content: center;
   text-align: center;
   font-weight: bolder;
-  font-family: sans-serif;
+  font-family: "GalanoGrotesque-Regular";
 }
 
 h2>p {
   font-size: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "GalanoGrotesque-Regular";
   font-weight: lighter;
   display: flex;
   margin: 1rem 3rem;
@@ -140,13 +141,13 @@ h3 {
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: "GalanoGrotesque-Regular";
   /* margin: 1rem 4rem; */
 }
 
 h3>p {
   font-size: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "GalanoGrotesque-Regular";
   font-weight: lighter;
   flex-direction: column;
   align-items: center;
@@ -157,17 +158,16 @@ h3>p {
 }
 
 .container-product {
-  display: block;
-  align-items: center;
-  padding-left: 20%;
-  padding-right: 10%;
+  padding: 0 10rem;
+  text-align: center;
 }
 
 .COP {
   text-align: center;
   font-size: 2rem;
   font-weight: bolder;
-  margin: 5rem auto;
+  margin: 3rem auto;
+  font-family: "GalanoGrotesque-Bold";
 }
 
 .product-thumb {
@@ -175,14 +175,13 @@ h3>p {
   height: auto;
   display: inline-table;
   background-color: #46C28C;
+  font-family: "GalanoGrotesque-Regular";
 }
 
 .product-thumb-image {
   width: 100px;
   height: auto;
-  display: inline-block;
   position: relative;
-  padding-left: 10px;
 }
 
 .product-thumb-image img {
@@ -190,6 +189,7 @@ h3>p {
 }
 
 .quickview-title {
+  margin-left: 10px;
   width: 200%;
   padding: 10px;
   text-align: center;
@@ -242,13 +242,31 @@ h3>p {
 }
 
 .button-container {
-  height: 50px;
+  position:relative;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+/* .sng-con{
+  position: relative;
+  background-color: white;
+  width: 13%;
+  height: auto;
+  border-radius: 100%;
+  margin-left: 3%;
+} */
+
+.sng{
+  width: 10%;
+  height: auto;
+  padding-bottom: 10px;
 }
 
 .lazada {
   width: 10%;
   height: auto;
-  margin-left: 3%;
 }
 
 .facebook {
@@ -269,6 +287,7 @@ h3>p {
 .blade {
   width: 10%;
   height: auto;
+  border-radius: 100%;
 }
 
 .GET {
@@ -337,11 +356,13 @@ h3>p {
   }
 
   .img {
-    margin-top: -8rem;
+    width: 60%;
+    height: auto;
+    margin-top: 5rem;
   }
 
   .showcase {
-    padding-top: 8rem;
+    margin-bottom: 10rem;
     display: flex;
     width: 100%;
     align-items: center;
@@ -352,14 +373,15 @@ h3>p {
   }
 
   .showcase .ez {
-    height: 40px;
+    height: 2rem;
     padding: 2rem 0;
   }
 
   .menu-wrap .logo {
-    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1rem;
     width: 5rem;
-    margin-left: 40%;
   }
 
   .container1 {
@@ -374,7 +396,7 @@ h3>p {
     justify-content: center;
     text-align: center;
     font-weight: bolder;
-    font-family: sans-serif;
+    font-family: "GalanoGrotesque-Regular";
     margin: inherit 4rem;
   }
 
@@ -383,14 +405,14 @@ h3>p {
     align-items: right;
     justify-content: right;
     text-align: center;
-    font-family: sans-serif;
+    font-family: "GalanoGrotesque-Regular";
   }
 
   .product-thumb {
     width: 240px;
     height: auto;
-    display: block;
-    padding-left: 30%;
+    display: inline-table;
+
     margin-bottom: 2.5rem;
   }
 
@@ -415,11 +437,11 @@ h3>p {
   }
 
   .close-btn {
-    position: absolute;
+    position: sticky;
     right: 0;
-    top: 0;
+    top: 10px;
     margin: 10px;
-    font-size: 18px;
+    float: right;
     cursor: pointer;
   }
 
@@ -433,6 +455,7 @@ h3>p {
     width: 100%;
     height: auto;
     text-align: center;
+    font-family: "GalanoGrotesque-Regular";
   }
 
   .product-big-desc h3{
@@ -457,15 +480,16 @@ h3>p {
     margin-right: 20%;
   }
 
-  .button-container {
-    height: 50px;
-    display: inline-block;
+  .sng{
+    width: 15%;
+    height: auto;
+    padding-bottom: 10px;
   }
+
 
   .lazada {
     width: 15%;
     height: auto;
-    margin-left: 3%;
   }
 
   .facebook {
@@ -500,10 +524,7 @@ h3>p {
   }
 
   .container-product {
-    display: block;
-    align-items: center;
-    margin-right: 55%;
-    padding-left: 10%;
+    padding: 0;
   }
 
   .city-img {
