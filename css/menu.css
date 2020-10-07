@@ -15,6 +15,7 @@
   background-color: transparent;
   overflow: hidden;
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 /* Style the links inside the navigation bar */
@@ -38,6 +39,7 @@
 /* Add an active class to highlight the current page */
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
+  color: white;
   display: none;
 }
 
@@ -60,22 +62,26 @@
   .topnav.responsive {
     position: relative;
     z-index: 3;
-
   }
 
   .topnav.responsive a.icon {
     position: fixed;
     left: 0;
     top: 0;
+    background-color: black;
+  }
+
+  .topnav a{
+    color: black;
   }
 
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: right;
-    background-color: rgba(0, 0, 0, 0.7);;
-
+    background-color: rgba(255, 255, 255, .7);
   }
+
 }
 
 @media all and (max-width: 768px) {
