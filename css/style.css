@@ -212,7 +212,6 @@ h3>p {
   justify-content: center;
   align-items: center;
   background-color: rgba(0,0,0,0.7);
-  padding: 0.5rem 0;
 }
 
 .product-thumb-image:hover .product-image {
@@ -232,6 +231,7 @@ h3>p {
 
 .product-name-price {
   color: white;
+  margin-bottom: 0.5rem;
 }
 
 .quickview-title {
