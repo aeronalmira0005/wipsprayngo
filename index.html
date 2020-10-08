@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spray n' Go</title>
   <link rel="icon" type="image/svg+xml" href="Images/Logo.ico">
+  <link rel="stylesheet" href="css/modals.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/menu.css">
   <link rel="stylesheet" href="css/lightbox.min.css">
@@ -468,16 +469,25 @@
       <a href="#">Home</a> <span>|</span>
       <a href="#about">About</a> <span>|</span>
       <a href="#products">Products</a> <span>|</span>
-      <a href="#">Terms and Conditions</a>
+      <a href="javascript:openModal()" id="myBtn">Terms and Conditions</a>
     </div>
 
     <p class="copyright">Copyright © 2020 Spray n' Go</p>
   </footer>
 
+  <!-- The Modal -->
+<div id="myModal" class="modal">
 
+  <!-- Modal content -->
+  <div class="modal-content">
 
+    <!-- <span class="close">&times;</span> -->
+    <p>Terms and Conditions</p>
+    <button type="button" class="close">Accept</button>
 
+  </div>
 
+</div>
 
 </body>
 
