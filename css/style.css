@@ -61,7 +61,7 @@ header {
   right: 0;
   background-color: rgba(47, 54, 64, 0.7);
   color: white;
-  padding: 1rem 2rem;
+  padding: 1rem 7rem;
   transition: 400ms;
 }
 
@@ -781,5 +781,14 @@ h3.product-big-desc-price{
 
   .showcase .showcase-inner {
     height: 95%;
+  }
+
+  .container-cookie{
+    padding: 1rem 1rem;
+  }
+
+  .container-cookie-button{
+    display:inline-block;
+    width:100%;
   }
 }
