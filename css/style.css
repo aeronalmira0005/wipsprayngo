@@ -49,6 +49,7 @@ footer .sng{
 }
 
 .fb-customerchat{
+  border: 2px solid red;
   padding-bottom: 4rem;
 }
 
