@@ -49,8 +49,16 @@ footer .sng{
 }
 
  .fb_dialog { 
-     bot: 20pt;
- }
+     left: 18pt;
+ };
+
+  iframe.fb_customer_chat_bounce_in_v2{
+     left:36pt!important;
+  }
+
+  iframe.fb_customer_chat_bounce_out_v2{
+     left:36pt!important;
+  }
 
 header {
   top: -4rem;
