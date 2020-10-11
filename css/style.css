@@ -48,6 +48,10 @@ footer .sng{
   font-weight: 700;
 }
 
+.fb-customerchat{
+  margin-bottom: 4rem;
+}
+
 header {
   top: -4rem;
   overflow-x: hidden;
