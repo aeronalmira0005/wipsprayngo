@@ -48,17 +48,10 @@ footer .sng{
   font-weight: 700;
 }
 
- .fb_dialog { 
-     left: 18pt;
- };
-
-  iframe.fb_customer_chat_bounce_in_v2{
-     left:36pt!important;
-  }
-
-  iframe.fb_customer_chat_bounce_out_v2{
-     left:36pt!important;
-  }
+.fb-customerchat{
+  position: absolute;
+  margin-bottom: 10rem;
+}
 
 header {
   top: -4rem;
