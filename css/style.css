@@ -48,10 +48,9 @@ footer .sng{
   font-weight: 700;
 }
 
-.fb-customerchat{
-  border: 2px solid red !important;
-  padding-bottom: 4rem !important;
-}
+ .fb_dialog { 
+     bot: 20pt;
+ }
 
 header {
   top: -4rem;
