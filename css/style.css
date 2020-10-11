@@ -4,11 +4,6 @@
   --menu-speed: 0.75s;
 }
 
-.fb-customerchat {
-  position: absolute !important;
-  bottom:20px !important;
-}
-
 body {
   box-sizing: border-box;
   margin: 0;
