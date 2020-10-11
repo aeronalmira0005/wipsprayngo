@@ -4,8 +4,8 @@
   --menu-speed: 0.75s;
 }
 
-.fb_customer_chat_bubble_pop_in {
-  top:20px !important;
+.fb-customerchat {
+  bottom:20px !important;
 }
 
 body {
