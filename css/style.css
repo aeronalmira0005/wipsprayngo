@@ -26,7 +26,9 @@ footer a{
 }
 
 footer h4{
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 700;
+  padding-bottom: 0.3rem;
 }
 
 footer .copyright{
